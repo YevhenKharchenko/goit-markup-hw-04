@@ -502,3 +502,13 @@ ul {
 .worker-sm-link:focus {
   background-color: #404bbf;
 }
+
+.page-footer .worker-sm-link:hover,
+.page-footer .worker-sm-link:focus {
+  background-color: #31d0aa;
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+}
