@@ -459,12 +459,12 @@ ul {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list-page:nth-child(1) {
+.nav-list-items-studio {
   position: relative;
   color: #404bbf;
 }
 
-.nav-list-page:nth-child(1)::after {
+.nav-list-items-studio::after {
   position: absolute;
   content: "";
   left: 0;
@@ -475,8 +475,19 @@ ul {
   border-radius: 2px;
 }
 
-.nav-list-page {
+.nav-list-items-studio {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-list-items-studio:hover,
+.nav-list-items-studio:focus {
+  color: #404bbf;
 }
 
 .adv-icons {
