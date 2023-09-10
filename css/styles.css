@@ -375,6 +375,13 @@ ul {
   position: absolute;
 }
 
+.sm-icons-footer {
+  width: 24px;
+  height: 24px;
+  fill: #f4f4fd;
+  position: absolute;
+}
+
 .icons-list {
   display: flex;
   gap: 24px;
